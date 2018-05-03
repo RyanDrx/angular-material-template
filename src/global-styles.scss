@@ -1,9 +1,10 @@
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import './sass/color-scheme.scss';
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
 .basic-container {
   padding: 10px;
 }
