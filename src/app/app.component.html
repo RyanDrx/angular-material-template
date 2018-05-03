@@ -14,7 +14,7 @@
     </mat-sidenav>
     <mat-sidenav-content>
       <div class="mat-app-background basic-container">
-        <router-outlet></router-outlet>
+        <router-outlet (activate)="snav.close()" ></router-outlet>
       </div>
     </mat-sidenav-content>
   </mat-sidenav-container>

@@ -47,7 +47,7 @@ export class AppComponent implements OnDestroy {
     this.mobileQuery.addListener(this._mobileQueryListener);
   }
 
-  toggleState(navOpen: boolean) {
+  public toggleState(navOpen: boolean) {
     this.state = navOpen ? 'inactive' : 'active';
   }
 
