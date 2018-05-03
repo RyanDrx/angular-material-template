@@ -1,5 +1,5 @@
 <header class="docs-header-background">
-  <div class="docs-header-section" color="secondary">
+  <div class="docs-header-section">
     <div class="docs-header-headline">
       <img routerLink="home" src="../../assets/images/placeholder.png" height="120">
       <h1 routerLink="home" class="mat-h1">
@@ -9,7 +9,14 @@
     </div>
   </div>
   <div class="docs-header-start">
-    <!-- PlaceHolder -->
+
+    <a class="docs-button" mat-raised-button>
+      <span class="mat-button-wrapper">
+        <mat-icon>touch_app</mat-icon> CTA </span>
+      <div class="mat-button-ripple mat-ripple"></div>
+      <div class="mat-button-focus-overlay"></div>
+    </a>
+
   </div>
 </header>
 
@@ -22,7 +29,7 @@
     <h1>Some more tab content</h1>
     <mat-list>
       <div *ngFor="let content of fillerContent index as i;">
-        <mat-list-item>{{content | slice:i:25}}
+        <mat-list-item>{{content | slice:i:50+i}}
         </mat-list-item>
         <mat-divider></mat-divider>
       </div>

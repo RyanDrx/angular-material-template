@@ -12,12 +12,13 @@ import { routes } from './modules/routes.module';
 import { MaterialModule } from './modules/material.module';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
-import { GridComponent } from './grid/grid.component';
+import { TableComponent } from './components/table/table.component';
+import { HomeComponent } from './components/home/home.component';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { GridComponent } from './components/grid/grid.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, SidenavComponent, GridComponent],
+  declarations: [AppComponent, HomeComponent, SidenavComponent, GridComponent, TableComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
